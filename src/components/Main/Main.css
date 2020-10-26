@@ -1,0 +1,7 @@
+#main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background: linear-gradient(to right,  #77cabc 20%, #d2c8b3 50%, #ffb2a2 90%);
+    position: relative;
+}
