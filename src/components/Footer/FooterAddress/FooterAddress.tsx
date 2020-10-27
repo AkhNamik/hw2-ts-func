@@ -1,11 +1,8 @@
 import React from "react"
-type Address = {
-  text: string
-}
-const FooterAddress: React.FC<Address> = ({ text }) => {
+const FooterAddress: React.FC = () => {
   return (
     <div className="footerAddress">
-      <p>{text}</p>
+      <p>365 Freebies. 007/365</p>
     </div>
   )
 }

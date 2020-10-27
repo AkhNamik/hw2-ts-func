@@ -3,12 +3,12 @@ import "./Footer.css"
 import FooterAddress from "./FooterAddress/FooterAddress"
 import FooterIcon from "./FooterIcon/FooterIcon"
 import FooterMail from "./FooterMail/FooterMail"
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer id="footer">
-      <FooterAddress text="365 Freebies. 007/365" />
+      <FooterAddress />
       <FooterIcon />
-      <FooterMail text="@anakarenart" />
+      <FooterMail />
     </footer>
   )
 }

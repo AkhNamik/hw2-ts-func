@@ -1,11 +1,8 @@
 import React from "react"
-type Mail = {
-  text: string
-}
-const FooterMail: React.FC<Mail> = ({ text }) => {
+const FooterMail: React.FC = () => {
   return (
     <div>
-      <p>{text}</p>
+      <p>@anakarenart</p>
     </div>
   )
 }

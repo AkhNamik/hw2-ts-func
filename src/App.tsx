@@ -4,10 +4,10 @@ import Header from "./components/Header/Header"
 import Main from "./components/Main/Main"
 import Footer from "./components/Footer/Footer"
 import "./components/Wrapper.css"
-function App() {
+const App: React.FC = () => {
   return (
     <div id="wrapper">
-      <Header text="Johny Dou" />
+      <Header />
       <Main />
       <Footer />
     </div>

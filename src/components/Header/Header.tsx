@@ -1,12 +1,9 @@
 import React from "react"
 import "./Header.css"
-type HeaderTxt = {
-  text: string
-}
-const Header: React.FC<HeaderTxt> = ({ text }) => {
+const Header: React.FC = () => {
   return (
     <header className="header">
-      <h1>{text}</h1>
+      <h1>Johny Dou</h1>
     </header>
   )
 }
